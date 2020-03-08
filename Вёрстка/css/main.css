@@ -1,0 +1,166 @@
+
+/* ----- General ----- */
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	color: #fff;	
+	overflow-y: visible !important;
+	margin-right: 0 !important;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: OpenSans, Arial, sans-serif;
+	font-weight: 700;
+}
+body, div, form, button, input, a, p, span, ul, li, h1, h2, h3, h4, h5, h6{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	display: block;
+}
+a, button, li, img{
+	transition: all 0.5s ease; 
+	text-decoration: none;
+}
+a{
+	color: #fff;	
+}
+a:hover{
+	color: #D92084;
+	text-decoration: none;
+}
+p{
+	line-height: 1.4em;
+}
+button:active, button:focus{
+	outline: 0;
+	border: 0;
+}
+.button{
+	font-family: OpenSans, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	width: 150px;
+	height: 30px;
+	background: #D92084;
+	border-radius: 100px;
+	padding: 7px 0; 
+}
+.button:hover{
+	color:#D92084;
+	background: #fff; 
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* ----- Index.html ----- */
+/* ----- Section Header ----- */
+.header{
+	background: url(../img/Main-BG.png) /*fixed*/ no-repeat center / cover;
+}
+/* ----- Navigation ----- */
+.navigation{
+	padding: 10px 0;
+	background: rgba(120, 63, 235, 0.9);
+}
+.nav__list{
+	width: 100%;
+}
+/* ----- Head ----- */
+.heading{
+	color: #27004E;
+	padding: 340px;
+	text-align: center;
+}
+.heading p{
+	font-family: RobotoSlab;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 0.70em;
+}
+h1{
+	 font-size: 48px;
+	 letter-spacing: 0.2em;
+}
+/* ----- Section About ----- */
+.about{
+	background: rgba(120, 63, 235, 0.9);
+	padding: 50px 0;
+}
+.about-info h2{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.about-info p{
+	margin: 25px 0 0 50px;
+}
+.about-info span{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.about-logo{
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	border-radius: 100%;
+	text-align: center;
+	padding: 70px;
+	color: #000;
+}
+/* ----- Section Organize ----- */
+.organize{
+	background: url(../img/Map.png) /*fixed*/ no-repeat center / cover;	
+}
+.organize-wrap{
+	padding: 280px 0;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+.organize-head h2{
+	max-width: 380px;
+	margin: 0 auto;
+}
+.organize-head a{
+	margin: 25px auto;
+}
+
+/* ----- Section Footer ----- */
+.footer{
+	background: rgba(120, 63, 235, 0.9);
+	padding: 20px;
+}
+
+
+
+
+
+
+
+/* ----- Media queries----- */
+/* 992-1200px */
+@media screen and (max-width: 1199px){
+
+}
+/* 768-992px */
+@media screen and (max-width: 991px){
+
+}
+/* 576-768px */
+@media screen and (max-width: 767px){
+
+}
+/* 320-576px */
+@media screen and (max-width: 575px){
+
+}
+

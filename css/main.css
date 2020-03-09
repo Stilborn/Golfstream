@@ -178,13 +178,14 @@ h1{
 	padding: 0 40px;
 }
 .slider-wrap{
-	padding: 30px;
+	padding: 30px 15px;
 	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 	border-radius: 5px;
 }
 .slider{
 	background: #7139E9;
 	padding: 20px 40px;
+	margin: 0 15px;
 	color: #fff;
 	border-radius: 5px;
 }
@@ -199,9 +200,10 @@ h1{
 }
 .slider__item{
 	display: block;
+	text-align: center;
 	text-transform: uppercase;
 	color: #000;
-	padding: 7px 10px;
+	padding-top: 6px;
 	margin-right: 10px;
 	width: 30px;
 	height: 30px;

@@ -22,9 +22,9 @@
 </head>
 <body>
 	<header id="header" class="header">	
-		<div class="navigation">
+		<nav class="navigation">
 			<div class="container">
-				<div class="row">
+				<div class="row">					
 					<div class="col-lg-1">
 						<a href="index.html">
 							<img src="#" alt="LOGO">
@@ -34,38 +34,50 @@
 						<nav class="nav">
 							<ul class="nav__list d-flex">
 								<li class="nav__item">
-									<a href="#" class="button">
+									<a href="meets.html" class="button">
 										<span> 
 											Встречи 
 										</span>
  									</a>
 								</li>
 								<li class="nav__item ml-auto">
-									<a href="#" class="button">
+									<a href="profile.html" class="button">
 										<span>
-											Профиль
+											Авторизоваться
 										</span> 
 									</a>
 								</li>
 							</ul>
 						</nav>										
-					</div>
+					</div>					
 				</div>
 			</div>			
-		</div>
+		</nav>
 		<div class="profile">
 			<div class="container">
+				<h2 class="pro-set__title pro-set"> 
+					Редактирование личных данных 
+				</h2>
 				<div class="row align-items-center">
-					<div class="col-lg-3">
+					<div class="col-lg-3 justify-content-center">
 						<div class="profile-img">
-							<img src="img/profile.jpg" alt="Help-me">
-							<span>B</span>
-						</div>					
+							<img src="img/profile.jpg" alt="Help-me" class="profile-img__wrap">
+							<img src="img/ex.png" alt="Я над этим думаю" class="profile-img__user">
+						</div>							
+					</div>					
+					<div class="col-lg-4 justify-content-center pro-set">
+						<div class="profile-img">
+							<img src="img/profile.jpg" alt="Help-me" class="profile-img__wrap">
+							<img src="img/ex.png" alt="Я над этим думаю" class="profile-img__user">
+						</div>	
+						<button type="submit" class="pro-set__sub submit"> 
+							Загрузить аватар					
+						</button>
 					</div>
 					<div class="col-lg-8">
-						<h2>
+						<h3>
 							Созданные встречи
-						</h2>
+						</h3>
 						<div class="slider-wrap d-flex align-items-center">
 							<i class="fas fa-angle-left"></i>
 							<div class="slider">
@@ -130,8 +142,29 @@
 							<i class="fas fa-angle-right"></i>
 						</div>
 					</div>
+					<div class="col-lg-6 offset-lg-1 pro-set">
+						<div class="edit d-flex justify-content-between">
+							<div class="edit__left">	
+								<h3>Имя</h3>
+								<input type="text" name="name">
+								<h3>Email</h3>
+								<input type="email" name="email" >
+								<h3>Телефон</h3>
+								<input type="tel" name="phone" >
+							</div>	
+							<div class="edit__rigth ">			
+								<h3>Новый пароль</h3>
+								<input type="password" name="password" >
+								<h3>Новый пароль ещё раз</h3>
+								<input type="password" name="repassword" >
+								<button type="submit" class="pro-set__save submit"> 
+									Сохранить							
+								</button>
+							</div>	
+						</div>
+					</div>
 				</div>
-				<div class="row ">
+				<div class="row">
 					<div class="col-lg-3">
 						<div class="persinal persinal_data">	
 							<h4>
@@ -147,7 +180,7 @@
 							</a>
 						</div>
 						<div class="persinal persinal_links">
-							<a href="mailto:yandex@mail.ru">
+							<a href="#">
 								<i class="fas fa-pencil-alt"></i>
 								Редактировать
 							</a>
@@ -158,9 +191,9 @@
 						</div>
 					</div>
 					<div class="col-lg-8">
-						<h2>
+						<h3>
 							Посещённые встречи
-						</h2>
+						</h3>
 						<div class="slider-wrap d-flex align-items-center">
 							<i class="fas fa-angle-left"></i>
 							<div class="slider">
@@ -237,7 +270,7 @@
 						© Все права защещены 2020 
 					</p>
 				</div>
-				<div class="col-lg-2 ml-auto">
+				<div class="col-lg-2 ml-auto text-right">
 					<a href="mailto:active-dvora@mail.ru">
 						active-dvora@mail.ru
 					</a>

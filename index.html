@@ -2,120 +2,452 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Актив двора</title> 
+	<title>Golfstream</title> 
 	<meta name="viewport" 		content="width=device-width, initial-scale=1">
-	<meta name="description" 	content="Актив двора — это платформа для создания и поиска спортивных встреч">
-	<meta name="keywords" 		content="Спорт, Встречи, Двор"> 
+	<meta name="description" 	content="Школа английского языка"> 
+	<meta name="keywords" 		content="Английский,Школа,English,School,Язык,language"> 
 	<!-- Favicon -->
-	<link rel="icon" 			href="img/Favicon.jpg" type="image/x-icon">
-	<link rel="shortcut icon" 	href="img/Favicon.jpg" type="image/x-icon">
-	<!-- Fontawesome-->
+	<link rel="icon" 			href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" 	href="img/favicon.png" type="image/x-icon">
+	<!-- Fontawesome CSS -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/solid.css" integrity="sha384-HTDlLIcgXajNzMJv5hiW5s2fwegQng6Hi+fN6t5VAcwO/9qbg2YEANIyKBlqLsiT" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/brands.css" integrity="sha384-KtmfosZaF4BaDBojD9RXBSrq5pNEO79xGiggBxf8tsX+w2dBRpVW5o0BPto2Rb2F" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" integrity="sha384-8WwquHbb2jqa7gKWSoAwbJBV2Q+/rQRss9UXL5wlvXOZfSodONmVnifo/+5xJIWX" crossorigin="anonymous">
-	<!-- Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto|Roboto+Slab:300&display=swap&subset=cyrillic" rel="stylesheet">	
-	<!-- CSS  -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- GF -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Main CSS  -->
 	<link rel="stylesheet" href="css/main.css">
-</head>
 <body>
-	<header id="header" class="header header_main">	
-		<nav class="navigation">
+	<header id="header" class="header header_home">
+		<div class="navigation">		
 			<div class="container">
-				<div class="row">					
-					<div class="col-lg-1">
-						<a href="index.html">
-							<img src="#" alt="LOGO">
-						</a>
-					</div>
-					<div class="col-lg-4 ml-auto">
-						<nav class="nav">
-							<ul class="nav__list d-flex">
-								<li class="nav__item">
-									<a href="meets.html" class="button">
-										<span> 
-											Встречи 
-										</span>
- 									</a>
-								</li>
-								<li class="nav__item ml-auto">
-									<a href="profile.html" class="button">
-										<span>
-											Авторизоваться
-										</span> 
-									</a>
-								</li>
-							</ul>
-						</nav>										
+				<div class="head-nav">					
+					<div class="logo">					
+						<img src="img/logo.png" alt="Golfstream">						
+					</div>		
+					<nav class="nav">						
+						<ul class="nav__list menu-show">
+							<li class="nav__item">
+								<a href="#about">
+									О нас
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#direction">
+									Направления
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="#whyme">
+									Почему мы
+								</a>
+							</li>
+							<li class="nav__item">
+								<a href="test.html">
+									On-line тест
+								</a>
+							</li>	
+						</ul>																	
+					</nav>
+					<button class="hamburger">
+							<i class="fa fa-bars"></i>
+					</button>
+					<ul class="soc-seti">
+						<li class="soc-seti__item">
+							<a href="viber://chat?number=%2B79371738103" target="_blank" class="yellow-hover">
+								<i class="fab fa-viber"></i>
+							</a>
+							
+						</li>
+						<li class="soc-seti__item">
+							<a href="skype:daria11173?" target="_blank" class="yellow-hover">
+								<i class="fab fa-skype"></i>
+							</a>
+						</li>
+						<li class="soc-seti__item">
+							<a href="https://wa.me/79371738103" target="_blank" class="yellow-hover">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container">
+				<div class="offer-content">				
+					<div class="head">
+						<img src="img/logo.png" alt="GulfStream">					
+						<h1 class="head__title">
+							Школа английского языка для взрослых «Гольфcтрим» \ “GulfStream”
+						</h1>					
+					</div>	
+					<div class="link-wrap">
+						<ul class="link">
+							<li class="link__item">
+								<a href="tel:+79371738103" target="_blank" class="yellow-hover">
+									<i class="fas fa-phone"></i>
+									<span>+7-937-173-8103</span>
+								</a>							
+							</li>
+							<li class="link__item">
+								<a href="mailto:gulfstream-samara@mail.ru" target="_blank" class="yellow-hover">
+									<i class="fas fa-envelope"></i>
+									<span>gulfstream-samara@mail.ru</span>
+								</a>				
+							</li>
+						</ul>
 					</div>					
 				</div>
-			</div>			
-		</nav>
-		<div class="title">
-			<div class="container">
-				<div class="heading">
-					<p>
-						Добро пожаловать в 
-					</p>
-					<h1>
-						Актив двора
-					</h1>
-				</div>
 			</div>
-		</div>
+		</div>		
 	</header>	
 	<section id="about" class="about">
-		<div class="container">			
-			<div class="row align-items-center">
-				<div class="col-lg-3 offset-lg-3">
-					<div class="about-info">
-						<h2>О проекте</h2>
-						<p> <span>Актив двора</span> — это платформа для создания и поиска спортивных встреч</p>
-					</div>
-				</div>
-				<div class="col-lg-2 offset-lg-1">
-					<div class="about-logo">
-						<img src="#" alt="LOGO">
-					</div>
+		<div class="container">
+			<h2>О нас</h2>
+			<div class="about-content">
+				<img src="img/photo-about.png" alt="" class="about-content__img">
+				<div class="about-info">
+					<p class="space">
+						ШКОЛА АНГЛИЙСКОГО ЯЗЫКА для подростков и взрослых "ГОЛЬФСТРИМ"
+					</p>
+					<p class="space">
+						My name is Daria. My surname is Solodukhina. I was born the 8th of March in 1991 in Novokuibishevsk. I graduated from Samara State Pedagogical University in 2014 the faculty of foreign languages, English Department.
+						All the time as I remember myself, I was crazy about English. My father was a fan of English and American rock bands and singers. That's why I was used to listening to the songs in English. I was always cuirious what they were singing about. Such kind of "cuiriosity" has become the main reason and the best motivation for me to study English. Nowadays my passion to English songs and translation has become my favourite activity . 
+					</p>
+					<p>
+						Mail for the honor of being your teacher in studying English!
+						Feel free to send me the message
+					</p>
+					<div class="about__button">
+						<a href="#" class="button">Записаться на первое занятие уже сейчас</a>
+					</div>					
+						Ты всегда хотел научиться говорить по-английски, но тебе постоянно что-то мешало???
+					<br>
+						Ты уже делал несколько заходов в этот "дремучий лес", отдавал деньги за курсы, но так и не разобрался???
+					<br>
+						 Тебе 20, 25, 28, 30, 31, 38... и ты думаешь, что начинать уже поздно? Типа ты куда-то опоздал....?)))
+	
+					<p class="space">
+						 И вот сейчас наконец-то звезды сошлись, ведь у тебя есть и время и желание, но курс в образовательном центре тебе не по карману???
+					</p>
+					<p class="space">
+						Если ты отвечаешь: "Да!" на эти простые вопросы, то тебе СЮДА!
+					</p>
+					<p>
+						Я предлагаю всем желающим от 16 и старше, но АКЦЕНТ хочу сделать НА более СТАРШЕЙ ГРУППЕ 20+) пройти обучение английскому языку С НУЛЯ и ПОКА НЕ НАДОЕСТ под моим чутким руководством 
+					</p>
 				</div>
 			</div>
 		</div>
-	</section>	
-	<section id="organize" class="organize">
-		<div class="organize-wrap">
-			<div class="container">	
-				<div class="organize-head">		
-					<h2>
-						ОРГАНИЗУЙ СВОЙ АКТИВ ДВОРА
-					</h2>
-					<a href="profile.html" class="submit">
-						Авторизоваться
-					</a>
-				</div>
+	</section>
+	<section id="direction" class="direction">
+		<div class="container">
+			<h2>Направления</h2>
+			<ul class="directions">
+				<li>
+					<h3><span class="bord">Starter</span></h3>
+					<div class="directions__items">
+						<img src="img/book1.jpg" alt="">
+						<div>
+							<p class="space">
+							Направление “Starter” актуально для учащихся, выполнивших верно не менее 90% теста на определение Вашего уровня английского языка. Тест представлен на сайте школы, но так же его можно выполнить на первом пробном занятии. 
+							Уровень “Starter”, как легко догадаться из названия, это самый первый, начальный этап изучения английского языка. Идеально подходит тем, кто только приступает к знакомству с английским языком и не имеет опыта изучения данного языка в прошлом.
+							</p>
+							<p class="space">
+							Охват тем:
+							<br>							
+							1)	Фонетика: правила чтения и постановка произношения;
+							<br>
+							2)	Личные местоимения и формы глагола “to be”;
+							<br>
+							3)	Формы глагола “to be” в предложениях различных по типу высказывания;
+							<br>
+							4)	Устойчивые выражения с “to be”. Понятие «Категории состояния»;
+							<br>
+							5)	Простые времена английского глагола: Present Simple, Past Simple, Future Simple;
+							<br>
+							6)	Многочисленные упражнения на практику перевода предложений во временах Present Simple, Past Simple, Future Simple;
+							<br>
+							7)	Типы вопросов + практика их перевода с русского на английский;
+							<br>
+							8)	Понятие «неправильных глаголов» + их многочисленная тренировка + практика перевода предложений с неправильными глаголами;
+							<br>
+							9)	Конструкция “there is\there are” + практика ее употребления в упражнениях на перевод;
+							<br>
+							10)	Артикли: теория + практика;
+							<br>
+							11)	Предлоги места, времени и образа действия: теория + практика.
+							</p>
+							<p>
+							Данный курс состоит главным образом из авторских наработок директора, методиста и преподавателя школы «Гольфстрим» Дарьи Солодухиной. 90% материала составлено самостоятельно. Ряд тем дополняются материалом из справочника по английской грамматике “English Grammar in Use. Intermediate Level” R. Murphy.
+							</p>
+						</div>
+					</div>		
+				</li>
+				<li>
+					<h3><span class="bord">Face2Face English. Elementary Level</span></h3>
+					<div class="directions__items">
+						<img src="img/book2.jpg" alt="">
+						<div>
+							<p class="space">
+							Данный курс включает в себя обучение по учебнику и рабочей тетради “Face2Face.Elementary level” авторов Chris Redston and Gillie Cunningham. В учебнике представлено 12 глав с 4 разделами в каждой (A, B, C, D) с обилием устных и письменных упражнений на тренировку навыков говорения, письма, аудирования и перевода. В каждой главе Вы расширяете свой словарный запас минимум на 20 лексических единиц и отрабатываете навык их употребления в различных упражнениях.
+							</p>
+							<p>
+							Охват тем:
+							<br>
+							1)	Фонетика: правила чтения. Тренировка на практике;
+							<br>
+							2)	Типы вопросов + краткие ответы: повторение и практика;
+							<br>
+							3)	Сравнение “have\have got”;
+							<br>
+							4)	Порядок слов в предложении с наречиями частотности;
+							<br>
+							5)	Времена глагола Present Simple, Past Simple, Future Simple: повторение, закрепление, практика употребления;
+							<br>
+							6)	Модальные глаголы: can\could. Теория и практика;
+							<br>
+							7)	Употребление артиклей: a, an, the. Повторение, практика;
+							<br>
+							8)	Время глагола Present Continuous: теория и практика;
+							<br>
+							9)	Модальный глагол CAN: употребление во временах Present Simple, Past Simple, Future Simple;
+							<br>
+							10)	Принципы построения имен прилагательных и наречий + исключения;
+							<br>
+							11)	Повелительное наклонение глагола: построение утвердительных и отрицательных предложений;
+							<br>
+							12)	Модальный глагол SHOULD. Его употребление по временах Present Simple, Past Simple, Future Simple;
+							<br>
+							13)	Употребление оборота “to be going to”: построение предложений с разным типом высказывания;
+							<br>
+							14)	Время глагола Present Perfect: теория +практика.
+							</p>							
+						</div>
+					</div>		
+				</li>
+				<li>
+					<h3><span class="bord">Face2Face English. Pre-Intermediate level</span></h3>
+					<div class="directions__items">
+						<img src="img/book3.jpg" alt="">
+						<div>
+							<p class="space">
+							Данный курс включает в себя обучение по учебнику и рабочей тетради “Face2Face.Pre-Intermediate level” авторов Chris Redston and Gillie Cunningham. В учебнике представлено 12 глав с 4 разделами в каждой (A, B, C, D) с обилием устных и письменных упражнений на тренировку навыков говорения, письма, аудирования и перевода. В каждой главе Вы расширяете свой словарный запас минимум на 20 лексичесеких единиц и отрабатываете навык их употребления в различных 
+							</p>
+							<p>
+							Охват тем:
+							<br>
+							1)	Фонетика: правила чтения + частные случаи. Практика;
+							<br>
+							2)	Вопросительные слова и типы вопросов. Повторение;
+							<br>
+							3)	Наречия частотности. Повторение;
+							<br>
+							4)	Время глагола Past Simple: повторение неправильных глаголов, принципов построения предложений различных по типу высказывания. Практика;
+							<br>
+							5)	Время глагола Past Continuous: теория + практика построения предложений различных по типу высказывания;
+							<br>
+							6)	Модальный глагол HAVE TO. Употребление в Present Simple и Past Simple. Построение предложений различных по типу высказывания;
+							<br>
+							7)	Сравнение времен Present Simple\Present Continuous. Практика употребления;
+							<br>
+							8)	Время глагола Present Perfect: построение предложений различных по типу высказывания;
+							<br>
+							9)	Модальные глаголы: WILL\MIGHT. Теория + практика;
+							<br>
+							10)	Употребление оборота “to be going to” для разных целей высказывания;
+							<br>
+							11)	Сравнительные степени имен прилагательных;
+							<br>
+							12)	Принципы построения имен прилагательных. Дополнение;
+							<br>
+							13)	Present Continuous для выражения будущих ожиданий;
+							<br>
+							14)	Present Perfect с употреблением предлогов for\since. Тренировка вопросов How long…?
+							<br>
+							15)	Модальные глаголы SHOULD\SHOULDN’T и MUST\MUSTN’T: теория и практика;
+							<br>
+							16)	Условное наклонение глагола: FIRST CONDITIONAL.
+							Теория + практика;
+							<br>
+							17)	Пассивный залог: Present Simple passive, Past Simple passive;
+							<br>
+							18)	Present Perfect: употребление с предлогами just, already, yet;
+							<br>
+							19)	Косвенная речь: теория + практика;
+							<br>
+							20)	Условное наклонение глагола: SECOND CONDITIONAL.
+							<br>
+							Теория + практика.
+							</p>
+						</div>
+					</div>		
+				</li>
+				<li>
+					<h3><span class="bord">Face2Face English. Intermediate level</span></h3>
+					<div class="directions__items">
+						<img src="img/book4.jpg" alt="">
+						<div>
+							<p class="space">
+							Данный курс включает в себя обучение по учебнику и рабочей тетради “Face2Face. Intermediate level” авторов Chris Redston and Gillie Cunningham. В учебнике представлено 12 глав с 4 разделами в каждой (A, B, C, D) с обилием устных и письменных упражнений на тренировку навыков говорения, письма, аудирования и перевода. В каждой главе Вы расширяете свой словарный запас минимум на 20 лексических единиц и отрабатываете навык их употребления в различных упражнениях.
+							</p>
+							<p>
+							Помимо повторения и более глубокой отработки уже изученных ранее грамматических тем, в учебнике представлены темы:
+							<br>
+							1)	Модальные глаголы: be able to, be allowed to, be supposed to;
+							<br>
+							2)	Сравнение в употреблении Present Perfect\Past Simple;
+							<br>
+							3)	Сравнение в употреблении Present Perfect\Present Perfect Continuous;
+							<br>
+							4)	Словообразование: суффиксы для прилагательных и существительных;
+							<br>
+							5)	Сравнение в употреблении Past Simple\Past Continuous;
+							Оборот used to;
+							<br>
+							6)	Past Perfect: теория +практика;
+							<br>
+							7)	Сравнение в употреблении Past Perfect\Past Simple;
+							<br>
+							8)	Фразовые глаголы. Практика;
+							<br>
+							9)	Выражение будущего времени. Разница в употреблении: will\be going to\Present Continuous;
+							<br>
+							10)	Устойчивые выражения с глаголами make\do;
+							<br>
+							11)	Условное наклонение глагола: ZERO CONDITIONAL + FIRST CONDITIONAL. Разница в употреблении. Практика;
+							<br>
+							12)	Условное наклонение глагола:FIRST CONDITIONAL + SECOND CONDITIONAL. Разница в употреблении. Практика;
+							<br>
+							13)	Косвенная речь: вопросы, просьбы, указания;
+							<br>
+							14)	Условное наклонение глагола: THIRD CONDITIONAL + WISHES;
+							<br>
+							15)	Устойчивые выражения с GET;
+							<br>
+							16)	Словообразование. Часть 3.
+							</p>
+						</div>
+					</div>		
+				</li>
+				<li>
+					<h3><span class="bord">Face2Face English. Upper-Intermediate level</span></h3>
+					<div class="directions__items">
+						<img src="img/book5.jpg" alt="">
+						<div>
+							<p class="space">
+							Данный курс включает в себя обучение по учебнику и рабочей тетради “Face2Face.Upper-Intermediate level” авторов Chris Redston and Gillie Cunningham. В учебнике представлено 12 глав с 4 разделами в каждой (A, B, C, D) с обилием устных и письменных упражнений на тренировку навыков говорения, письма, аудирования и перевода. В каждой главе Вы расширяете свой словарный запас минимум на 20 лексических единиц и отрабатываете навык их употребления в различных упражнениях.
+							</p>
+							<p>
+							Охват тем:
+							<br>
+							1)	Повторение всех времен английского глагола в активном залоге. Практика;
+							<br>
+							2)	Употребление конструкций be used to\get used to;
+							<br>
+							3)	Условное наклонение глагола: SECOND CONDITIONAL;
+							<br>
+							4)	Условное наклонение глагола:THIRD CONDITIONAL;
+							<br>
+							5)	Past Perfect Continuous: практика употребления;
+							<br>
+							6)	Выражение будущего времени: Future Continuous;
+							<br>
+							7)	Герундий: практика употребления;
+							<br>
+							8)	Модальные глаголы: употребление в будущем времени;
+							<br>
+							9)	Сравнение: Present Perfect\Present Perfect Continuous;
+							<br>
+							10)	Wishes: I hope\it’s time…\should have
+							<br>
+							Поскольку на уровне Upper-Intermediate учащиеся уже освоили достаточное количество грамматических конструкций и владеют большим объемом лексики, каждое занятие уровня Upper-Intermediate ориентировано в первую очередь на практику речи. Студенты выполняют основную массу заданий устно: либо индивидуально, либо в паре, либо в группе, оттачивая свои коммуникативные навыки.
+							</p>
+						</div>
+					</div>		
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="whyme" class="whyme">
+		<div class="whyme-bg">
+			<div class="container">
+				<h2>Почему стоит придти учиться именно в школу «Гольфстрим»?</h2>
+				<ul class="whyme-list">
+					<li>
+						<h3>Авторская методика</h3>
+						
+						<p>Методика была апробирована на учащихся в течение 3 лет. Она сочетает в себе тактику преподавания АЯ на факультете иностранных языков Самарского государственного педагогического университета и авторские наработки выпускницы данного учебного заведения Дарьи Солодухиной;</p>
+					</li>
+					<li>
+						<h3>Online and offline approach </h3>
+						<p>Возможность заниматься как на территории школы лично с преподавателем\в индивидуальном порядке, так и по Skype;</p>
+					</li>
+					<li>
+						<h3>Ноль затрат на учебные материалы </h3>
+						<p>Преподаватель\школа предоставляет все необходимые для занятий учебные материалы как в электронном виде, так и в распечатанном. На базе школы всегда можно сделать необходимое количество копий для конкретного занятия;</p>
+					</li>
+					<li>
+						<h3>“All inclusive”<p class="hide-space"> </p></h3>
+
+						<p>Стоимость всех распечатанных материалов и ксерокопий уже включена в стоимость занятий. Дополнительно ничего оплачивать не нужно!</p>
+					</li>
+					<li>
+						<h3>Цена\ качество\ время занятия. </h3>
+						<p>Одно занятие длится 90 минут (=650 рублей), в отличие от многих других школ и курсов, где занятие длится 40-45 минут за те же деньги;</p>
+					</li>
+					<li>
+						<h3>Занятия не «сгорают»</h3>
+						<p>В случае если занятие было отменено самим преподавателем, данное занятие не «сгорает», а переносится на следующий день, согласно ранее утвержденному с Вами расписанию;</p>
+					</li>
+					<li>
+						<h3>Вы не теряете деньги </h3>
+						<p>В случае отмены Вами запланированного занятия не менее чем за 4 часа, данное занятие не «сгорает», а переносится на следующий день, согласно ранее утвержденному с Вами расписанию;</p>
+					</li>
+					<li>
+						<h3>	Я законопослушна:   Я отчисляю налоги </h3>
+						<p>За свою преподавательскую деятельность, поэтому в обязательном порядке заключаю с Вами официальный договор об оказании образовательных услуг. Вы будете заранее ознакомлены обо всех правах и обязанностях сторон;</p>
+					</li>
+					<li>
+						<h3>Подготовка к сдаче  экзаменов FCE </h3>
+						<p>Отлично подготовить к экзамену может тот, кто сам его на «отлично» сдал. Мой сертификат FCE, всегда при мне. Вы всегда можете лично убедиться в его наличии и задать интересующие Вас вопросы;</p>
+					</li>
+					<li class="whyme-list-last">
+						<h3>Приведи с собой друга и получи скидку на курс!</h3>			
+					</li>				
+				</ul>
+					<div class="whyme-list-last-dnone">
+						<h3>Приведи с собой друга и получи скидку на курс!</h3>			
+					</div>
 			</div>
 		</div>
 	</section>
 	<footer id="footer" class="footer">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<p>
-						© Все права защещены 2020 
-					</p>
-				</div>
-				<div class="col-lg-2 ml-auto text-right">
-					<a href="mailto:active-dvora@mail.ru">
-						active-dvora@mail.ru
-					</a>
-				</div>
-			</div>
-		</div>
+			<ul class="footer-links">
+				<li>
+					<a href="tel:+79371738103" target="_blank">
+						<i class="fas fa-phone"></i>
+						<span>+7-937-173-8103</span>
+					</a>							
+				</li>
+				<li >
+					© Все права защищены
+				</li>
+				<li>
+					<a href="mailto:gulfstream-samara@mail.ru" target="_blank">
+						<i class="fas fa-envelope"></i>
+						<span>gulfstream-samara@mail.ru</span>
+					</a>				
+				</li>				
+			</ul>
+		</dir>
 	</footer>
 	<!-- JS -->
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

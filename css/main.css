@@ -112,8 +112,15 @@ section{
 	display: block !important;
 	order: 1;
 }
-
-
+.d-flex{
+	display: flex !important;
+}
+.d-block{
+	display: block !important;
+}
+.d-none{
+	display: none !important;
+}
 
 
 
@@ -154,8 +161,11 @@ nav{
 }
 .soc-seti a{
 	font-size: 30px;
-	color: #FCF853;
+	color: #027800;
 	margin-left: 10px;
+}
+.soc-seti a:hover{
+	color: #FCF853;
 }
 .offer{
 	min-height: 530px;
@@ -313,6 +323,53 @@ h5{
 .test-btn:hover{
 	background: #fff;
 }
+/* ----- Studio ----- */
+.create-content{
+	display: flex;
+}
+.create-head{
+	text-align: center;
+	margin: 35px 0;
+}
+.create-head h4{
+	margin-bottom: 0px;
+}
+.create-head p{
+	font-size: 22px;
+}
+.create-head select{
+	width: 350px;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.create-body{
+	padding: 15px 0 30px 0;
+}
+.cb-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cb-text h5, .cb-text span{
+	font-size: 20px;
+	margin: 0px;
+}
+.cb-text p{
+	margin-top: 15px;
+}
+.cbt-title{
+	text-align: center;	
+}
+.cb-video{
+	margin-left: auto;
+	text-align: center;
+}
+.cb-video p{
+	font-family: 'Roboto Slab', 'Arial', sans-serif;
+}
+
+
+
 
 
 

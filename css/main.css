@@ -82,6 +82,15 @@ section{
 .space{
 	margin-bottom: 15px;
 }
+.d-flex{
+	display: flex !important;
+}
+.d-block{
+	display: block !important;
+}
+.d-none{
+	display: none !important;
+}
 /* ----- Hamburger ----- */
 .hamburger{
 	display: none;
@@ -112,20 +121,86 @@ section{
 	display: block !important;
 	order: 1;
 }
-.d-flex{
-	display: flex !important;
+/* ----- ModalWindow----- */
+/* ----- form-record----- */
+.form-record {
+	position: relative;	
+	background: #fff;
+	color: #000;	
+	border-radius: 5px;
+	padding: 30px;
+	text-align: center;
+	max-width: 350px;
 }
-.d-block{
-	display: block !important;
+.form-record input{
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	border-bottom: 1px solid  #bababa;
+	margin-bottom: 13px;
+	padding: 10px 0;
 }
-.d-none{
-	display: none !important;
+.form-record input:focus, .bform-record input:focus::placeholder{
+	color: #000;
 }
-
-
-
-
-
+.form-record__title{
+	color: #000;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.rc-select{
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-bottom: 1px solid  #bababa;
+	margin-bottom: 13px;
+	width: 100%;
+}
+.big-text{
+	display: block;
+	font-size: 18px ;
+	width: 100%;
+	min-height: 100px;
+	margin-bottom: 15px;
+	resize: none;
+}
+/* ----- form-test----- */
+.form-test {
+	position: relative;	
+	background: #fff;
+	color: #000;	
+	border-radius: 5px;
+	padding: 30px;
+	text-align: center;
+	max-width: 350px;
+}
+.form-test input{
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	border-bottom: 1px solid  #bababa;
+	margin-bottom: 13px;
+	padding: 10px 0;
+}
+.form-test input:focus, .bform-test input:focus::placeholder{
+	color: #000;
+}
+.form-test__title{
+	color: #000;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.form-test__title span{
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-weight: 400;
+}
+.form-test p{
+	font-size: 14px;	
+}
 
 
 /* ----- Section Header ----- */
@@ -324,6 +399,9 @@ h5{
 	background: #fff;
 }
 /* ----- Studio ----- */
+.create{
+	min-height: 500px;
+}
 .create-content{
 	display: flex;
 }
@@ -338,7 +416,7 @@ h5{
 	font-size: 22px;
 }
 .create-head select{
-	width: 350px;
+	max-width: 350px;
 	font-size: 18px;
 	margin-top: 15px;
 }
@@ -389,13 +467,16 @@ h5{
 /* 768-992px */
 @media screen and (max-width: 991px){
 	nav{
-	min-width: 450px;
+	min-width: 500px;
+	}
+	.nav__item a {
+		font-size: 15px;
 	}
 	.offer-content{
-    flex-direction: column;
+    	flex-direction: column;
 	}
 	.directions__items{
-	flex-direction: column;
+		flex-direction: column;
 	}
 	.directions__items img{
 		margin-bottom: 20px;
@@ -409,6 +490,9 @@ h5{
 		margin: 10px auto;
 		padding: 5px;	
 		width: 90%;	
+	}
+	.create-content{
+		flex-direction: column;
 	}
 }
 /* 576-768px */
@@ -437,6 +521,9 @@ h5{
 	}
 	h1{
 		font-size: 26px;
+	}
+	iframe{
+		max-width: 310px;
 	}
 	.head{
 		flex-direction: column;

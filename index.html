@@ -17,7 +17,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-	<!-- Main CSS  -->
+	<!--CSS  -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
 	<link rel="stylesheet" href="css/main.css">
 <body>
 	<header id="header" class="header header_home">
@@ -51,7 +52,7 @@
 							</li>
 							<li class="nav__item">
 								<a href="test.html">
-									On-line тест
+									Online test
 								</a>
 							</li>	
 						</ul>																	
@@ -86,7 +87,7 @@
 					<div class="head">
 						<img src="img/logo.png" alt="GulfStream">					
 						<h1 class="head__title">
-							Школа английского языка для взрослых «Гольфcтрим» \ “GulfStream”
+							Школа английского языка для подростков и взрослых «Гольфcтрим» \ “GulfStream”
 						</h1>					
 					</div>	
 					<div class="link-wrap">
@@ -127,7 +128,7 @@
 						Feel free to send me the message
 					</p>
 					<div class="about__button">
-						<a href="#" class="button">Записаться на первое занятие уже сейчас</a>
+						<a href="#" class="button record">Записаться на первое занятие уже сейчас</a>
 					</div>					
 						Ты всегда хотел научиться говорить по-английски, но тебе постоянно что-то мешало???
 					<br>
@@ -157,8 +158,7 @@
 					<div class="directions__items">
 						<img src="img/book1.jpg" alt="">
 						<div>
-							<p class="space">
-							Направление “Starter” актуально для учащихся, выполнивших верно не менее 90% теста на определение Вашего уровня английского языка. Тест представлен на сайте школы, но так же его можно выполнить на первом пробном занятии. 
+							<p class="space">							
 							Уровень “Starter”, как легко догадаться из названия, это самый первый, начальный этап изучения английского языка. Идеально подходит тем, кто только приступает к знакомству с английским языком и не имеет опыта изучения данного языка в прошлом.
 							</p>
 							<p class="space">
@@ -198,6 +198,7 @@
 						<img src="img/book2.jpg" alt="">
 						<div>
 							<p class="space">
+							Направление “Elementary” актуально для учащихся, выполнивших верно не менее 90% теста на определение Вашего уровня английского языка. Тест представлен на сайте школы, но так же его можно выполнить на первом пробном занятии. 
 							Данный курс включает в себя обучение по учебнику и рабочей тетради “Face2Face.Elementary level” авторов Chris Redston and Gillie Cunningham. В учебнике представлено 12 глав с 4 разделами в каждой (A, B, C, D) с обилием устных и письменных упражнений на тренировку навыков говорения, письма, аудирования и перевода. В каждой главе Вы расширяете свой словарный запас минимум на 20 лексических единиц и отрабатываете навык их употребления в различных упражнениях.
 							</p>
 							<p>
@@ -235,7 +236,7 @@
 					</div>		
 				</li>
 				<li>
-					<h3><span class="bord">Face2Face English. Pre-Intermediate level</span></h3>
+					<h3><span class="bord">Face2Face English. Pre-intermediate level</span></h3>
 					<div class="directions__items">
 						<img src="img/book3.jpg" alt="">
 						<div>
@@ -339,7 +340,7 @@
 					</div>		
 				</li>
 				<li>
-					<h3><span class="bord">Face2Face English. Upper-Intermediate level</span></h3>
+					<h3><span class="bord">Face2Face English. Upper Intermediate level</span></h3>
 					<div class="directions__items">
 						<img src="img/book5.jpg" alt="">
 						<div>
@@ -413,8 +414,8 @@
 						<p>В случае отмены Вами запланированного занятия не менее чем за 4 часа, данное занятие не «сгорает», а переносится на следующий день, согласно ранее утвержденному с Вами расписанию;</p>
 					</li>
 					<li>
-						<h3>	Я законопослушна:   Я отчисляю налоги </h3>
-						<p>За свою преподавательскую деятельность, поэтому в обязательном порядке заключаю с Вами официальный договор об оказании образовательных услуг. Вы будете заранее ознакомлены обо всех правах и обязанностях сторон;</p>
+						<h3>Я законопослушна:<p class="hide-space"> </p></h3>
+						<p>Я отчисляю налоги законопослушнаа свою преподавательскую деятельность, поэтому в обязательном порядке заключаю с Вами официальный договор об оказании образовательных услуг.</p>
 					</li>
 					<li>
 						<h3>Подготовка к сдаче  экзаменов FCE </h3>
@@ -451,8 +452,32 @@
 			</ul>
 		</div>
 	</footer>
+	<!-- ModalWindow -->
+	<div class="d-none">
+	    <form class="form-record">
+	       	<h4 class="form-record__title">
+	    		Заполните форму и мы вам обязательно ответим
+	    	</h4>	    	   	
+	    	<input type="text" 	placeholder="Имя" 		name="name"		required>
+	    	<input type="text" 	placeholder="Фамилия"	name="lname"	required>
+			<input type="email" placeholder="E-mail"	name="email"	required>	
+			<select class="rc-select">
+				<option class="placehold" value="0" disabled selected><span>Желаемое направление</span></option>
+				<option value="1">Starter</option>
+				<option value="2">Elementary Level</option>
+				<option value="3">Pre-intermediate level</option>
+				<option value="4">Intermediate level</option>
+				<option value="5">Upper Intermediate level</option>
+			</select>			
+			<textarea name="textarea" class="big-text" placeholder="Коментарий преподователю" ></textarea>
+			<button type="submit" class="form-record__btn button"> 					
+				ОТПРАВИТЬ 
+			</button>
+	    </form>
+	</div>
 	<!-- JS -->
 	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
